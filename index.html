@@ -26,7 +26,7 @@ body::before{content:'';position:fixed;inset:0;background:
 
 /* ── HEADER ── */
 header{text-align:center;padding:38px 20px 26px;}
-.badge{display:inline-block;background:linear-gradient(135deg,#ff8c1a,#ff6b6b);color:#fff;font-size:.7rem;font-weight:800;letter-spacing:2px;text-transform:uppercase;padding:5px 16px;border-radius:20px;margin-bottom:14px;box-shadow:0 4px 16px rgba(255,107,107,.4);}
+.badge{display:block;background:linear-gradient(135deg,#1a1a2e,#16213e);color:#fff;font-size:.75rem;font-weight:800;letter-spacing:2px;text-transform:uppercase;padding:8px 20px;border-radius:10px;margin-bottom:14px;box-shadow:0 4px 16px rgba(0,212,255,.25);border:1px solid rgba(0,212,255,.3);}
 h1{font-family:'Baloo 2',cursive;font-size:clamp(2rem,5vw,3rem);font-weight:800;background:linear-gradient(135deg,var(--cyan),var(--teal),var(--yellow));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;line-height:1.2;margin-bottom:8px;animation:shimmer 3s ease-in-out infinite;}
 @keyframes shimmer{0%,100%{filter:brightness(1);}50%{filter:brightness(1.2);}}
 .subtitle{color:rgba(255,255,255,.65);font-size:.95rem;font-weight:600;max-width:480px;margin:0 auto 16px;}
@@ -175,7 +175,7 @@ kbd{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);bord
 
 <!-- HEADER -->
 <header>
-  <div class="badge">🎓 Zone Proche Orient · AEFE · Objectif Coding #3</div>
+  <div class="badge">👨‍🏫 Fehmi Klabi · Professeur de Technologie</div>
   <div class="emoji-row">🤿 🦈 🦀 🔑 🪨</div>
   <h1>Jeu de Plongée avec Scratch</h1>
   <p class="subtitle">Guide interactif pas à pas — crée ton jeu en autonomie !</p>
@@ -284,13 +284,6 @@ kbd{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.22);bord
         🔹 Y : <strong>-180</strong> (bas) → <strong>+180</strong> (haut)<br><br>
         ➡️ <strong>Plongeuse P</strong> part de (0, 0)<br>
         ➡️ <strong>Requin R</strong> part de (-240, 0)
-      </div>
-      <div class="qbox">
-        <label>🟢 Coordonnées du point vert ?</label>
-        <input type="number" placeholder="x=?" id="q5" style="width:88px">
-        <input type="number" placeholder="y=?" id="q6" style="width:88px">
-        <button class="qbtn" onclick="chk2('q5','225','q6','-180','a5')">Vérifier</button>
-        <div class="ans" id="a5">✅ <strong style="color:var(--green)">x = 225, y = -180</strong></div>
       </div>
     </div>
   </div>
